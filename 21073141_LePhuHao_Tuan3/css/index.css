@@ -1,0 +1,223 @@
+.container{
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+
+.Bai_2{
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.Bai_3{
+    border: 1px solid black;
+    padding: 5px;
+    margin: auto;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+.Bai_3a td,th{
+    border: 1px solid white;
+
+}
+.Bai_3a table{
+    background-color: white;
+    padding: 5px;
+}
+
+.Bai_3b td,th{
+    border: 1px solid white;
+}
+.Bai_3b table{
+    background-color: white;
+    padding: 5px;
+}
+
+.Bai_4{
+    border: 1px solid black;
+    padding: 5px;
+    margin: auto;
+    width: 90%;
+}
+.Region{
+    border-collapse: collapse;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    width: 50%;
+    margin: auto;
+}
+
+.Region td , .Region th{
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.Region tr:nth-child(even) {background-color: #e7e5e5;}
+.Region tr:nth-child(odd) {background-color: white;}
+
+.Bai_5{
+    margin-top: 20px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.img{
+    background-image: url(../img/images.jpg) , url(../img/Landscape-Color.jpg);
+    background-position: right bottom , left top;
+    background-repeat: no-repeat , repeat;
+}
+
+.Bai_6{
+    margin:auto;
+    border: 1px solid black;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.grid-container, .row{
+    width: 100%;
+ }
+ .row:before, .row:after{
+     display: table;
+     content: "";
+ }
+ .row:after{
+     clear:both
+ }
+ .col1, .col2, .col3{
+    float: left;
+    width: 25%;
+    margin: 1%;
+    padding: 1%;
+ }
+
+ .Bai_7{
+    border: 1px solid black;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 20px;
+ }
+ .newspaper{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: blue;
+    font-size: 25px;
+ }
+
+ .Bai_8{
+    border: 1px solid black;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 20px;
+ }
+ .border-color, .border-style , .border-width , .border-radius, .Adv ,.Advan,.Round,.Bullet,.Sub{
+    background-color: white;
+ }
+.Bai_8a{
+    border-top: 15px solid green; 
+    border-right:15px solid yellow; 
+    border-bottom: 15px solid blue; 
+    border-left: 15px solid pink; 
+    width: 70%; 
+    margin: auto; 
+    margin-bottom: 20px;
+}
+.bai_8b{
+    border-top: 10px solid green; 
+    border-right: 10px dotted yellow; 
+    border-bottom: 10px groove blue; 
+    border-left: 10px double pink;
+    width: 70%; 
+    margin: auto; 
+    margin-bottom: 20px
+}
+.bai_8c{
+    border-top: 5px solid green; 
+    border-right: 10px solid yellow; 
+    border-bottom: 15px solid blue; 
+    border-left: 30px solid pink;
+    width: 70%; 
+    margin: auto; 
+    margin-bottom: 20px;
+}
+.bai_8d{
+    border-top: 15px solid green; 
+    border-top-right-radius: 30px ;
+    border-right: 15px solid yellow;
+    border-bottom-right-radius: 70px ;
+    border-bottom: 15px solid blue; 
+    border-left: 15px solid pink;
+    border-bottom-left-radius: 20px;
+    width: 70%; 
+    margin: auto; 
+    margin-bottom: 20px;
+}
+.bai_8e{
+    border-width: 4px 30px 4px 30px;
+    border-style: groove ridge dashed groove;
+    border-color: rgb(7, 204, 7);
+    border-radius: 100px 100px 0 0;
+    width: 30%;
+    margin: auto;
+
+ }
+ .bai_8f{
+    border-radius: 20px;
+    padding: 20px;
+    border: 10px solid yellow;
+    width: 20%;
+    margin: auto;
+ }
+.bai_8h{
+    border-radius: 20px 100px 100px 20px;
+    border: 5px solid blue;
+    width: 20%;
+    padding: 20px;
+    margin: auto;
+}
+.bai_8i{
+    background: orange;
+    border-width: 4px 30px 4px 30px;
+    border-style: solid;
+    border-color: #56c9d9 #56c6d9 #fe2192 #fe2192;
+    border-radius: 0 120px 0 120px;
+    width: 30%;
+    margin: auto;
+ }
+.j{
+    width: 200px;
+    padding: 8px;
+    border-color: #357ebd;
+    background-color: #428bca;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    font-weight: 900;
+    font-size: 125%;
+}
+.bai_9{
+    border: 1px solid black;
+    background-color: white;
+}
+.bai_9 .box{
+    width: fit-content;
+    text-transform: uppercase;
+    margin: auto;
+}
+.bai_9 .a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+}
+.bai_9 tr td
+{
+    border:1px solid black;
+    padding: 30px 20px;
+    text-align: center;
+}
